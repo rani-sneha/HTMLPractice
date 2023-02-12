@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a HTML practice webpage.">
+        <style>
+            table, th, td{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <br>
+        <form action="" method="post">
+            <label for="Name">Name</label>
+            <input type="text" name="" id="Name" placeholder="Type your name here">
+            <br><br>
+            <label for="Email">Email</label>
+            <input type="email" name="" id="Email" placeholder="Type your email here">
+            <br><br>
+            <label for="messages">Messages</label>
+            <br><br>
+            <textarea name="" id="messages" cols="30" rows="10" placeholder="Type your messages here"></textarea>
+            <br><br>
+            <label for="ph-num">Phone Number</label>
+            <input type="number" name="" id="ph-num" placeholder="Type your phone number here">
+            <br><br>
+            <label for="gender">Select your gender</label>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" name="G" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="G" id="female">
+            <label for="other">Other</label>
+            <input type="radio" name="" id="others">
+            <br><br>
+            <label for="profession">Select your profession</label>
+            <br>
+            <select name="profession-official" id="profession">
+                <option value="softengg">Software Engineer</option>
+                <option value="hardengg">Hardware Engineer</option>
+                <option value="full-stack">Full Stack Web Developer</option>
+            </select>
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" name="" id="password" placeholder="Type your password here">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <br><br>
+
+        <table style="border: 1px solid black;">
+            <caption>This is the caption of table</caption>
+            <thead>
+                <tr>
+                    <th colspan="2">&nbsp; &nbsp; &nbsp; &nbsp;</th>
+                    <th>Name</th>
+                    <th>Mass</th>
+                    <th>Distance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <th colspan="2" rowspan="3">Terrestrial Plants</th>
+                <th>Earth</th>
+                <td>4554</td>
+                <td>4554</td>
+                </tr>
+                <tr>
+                    <th>Venus</th>
+                    <td>4554</td>
+                    <td>4554</td>  
+                </tr>
+                <tr>
+                    <th>Earth</th>
+                    <td>4554</td>
+                    <td>4554</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
