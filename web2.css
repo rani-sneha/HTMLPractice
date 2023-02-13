@@ -1,0 +1,9 @@
+.main-header, .blog{
+background-color: #efefef;
+}
+h1, h2{
+    color: rgb(35, 140, 237);
+}
+span, mark{
+    background-color: aqua;
+}
