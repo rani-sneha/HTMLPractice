@@ -1,0 +1,26 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+    background-color: lightgrey;
+    margin: 20px auto;
+    /* padding: 1px 0px; */
+}
+article{
+    border:2px solid black;
+    padding:10px;
+    margin: 10px auto;
+    text-align: justify;
+}
+article.about-me{
+    margin-bottom: 30px;
+}
+h2{
+    text-transform: uppercase;
+}
+body{
+    width:1000px;
+    /* border: 1px solid black; */
+    margin: 0px auto;
+}
