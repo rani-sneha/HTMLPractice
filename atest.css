@@ -1,0 +1,12 @@
+h1, h2{
+    color: #66BFBF;
+}
+h3, a{
+    color:#11999e;
+}
+h2{
+    font-weight: normal;
+}
+h1{
+    line-height: 2;
+}
